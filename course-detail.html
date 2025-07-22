@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Detail - LearnHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Learn<span>Hub</span></h1>
+                <p>Your gateway to knowledge</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="course-detail">
+        <div class="container">
+            <div class="course-main">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> > <a href="courses.html">Courses</a> > <span>Web Development</span>
+                </div>
+                
+                <h1>Complete Web Development Bootcamp</h1>
+                
+                <div class="course-meta">
+                    <div class="instructor">
+                        <img src="images/instructor1.jpg" alt="Karan Kumar">
+                        <span>By Karan Kumar</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.5 (1,200 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="students">
+                        <i class="fas fa-users"></i> 5,400 students
+                    </div>
+                    <div class="last-updated">
+                        <i class="fas fa-calendar-alt"></i> Last updated 07/2023
+                    </div>
+                </div>
+                
+                <div class="course-video">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Introduction to HTML & CSS</h3>
+                        <p>In this lecture, we'll cover the basics of HTML structure and CSS styling.</p>
+                    </div>
+                </div>
+                
+                <div class="course-tabs">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="overview">Overview</button>
+                        <button class="tab-btn" data-tab="curriculum">Curriculum</button>
+                        <button class="tab-btn" data-tab="instructor">Instructor</button>
+                        <button class="tab-btn" data-tab="reviews">Reviews</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="overview">
+                        <h3>Course Description</h3>
+                        <p>This complete web development bootcamp will take you from beginner to advanced level in web development. You'll learn HTML, CSS, JavaScript, React, Node.js, MongoDB, and much more through hands-on projects and real-world examples.</p>
+                        
+                        <h3>What You'll Learn</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Build responsive websites with HTML5 and CSS3</li>
+                            <li><i class="fas fa-check"></i> Create interactive web applications with JavaScript</li>
+                            <li><i class="fas fa-check"></i> Develop modern web apps with React and Node.js</li>
+                            <li><i class="fas fa-check"></i> Work with databases like MongoDB</li>
+                            <li><i class="fas fa-check"></i> Deploy your applications to the web</li>
+                            <li><i class="fas fa-check"></i> Implement authentication and security</li>
+                        </ul>
+                        
+                        <h3>Requirements</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Basic computer skills</li>
+                            <li><i class="fas fa-check"></i> No prior programming experience needed</li>
+                            <li><i class="fas fa-check"></i> A computer with internet access</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="curriculum">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h4>Section 1: HTML Fundamentals</h4>
+                                    <span>5 Lectures • 3h 20m</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><i class="fas fa-play-circle"></i> Introduction to HTML <span>45:20</span></li>
+                                        <li><i class="fas fa-play-circle"></i> HTML Document Structure <span>38:15</span></li>
+                                        <li><i class="fas fa-play-circle"></i> HTML Elements and Attributes <span>42:30</span></li>
+                                        <li><i class="fas fa-play-circle"></i> Forms and Input Elements <span>51:45</span></li>
+                                        <li><i class="fas fa-play-circle"></i> HTML5 Semantic Elements <span>22:10</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h4>Section 2: CSS Styling</h4>
+                                    <span>6 Lectures • 4h 15m</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><i class="fas fa-play-circle"></i> Introduction to CSS <span>35:20</span></li>
+                                        <li><i class="fas fa-play-circle"></i> CSS Selectors and Properties <span>48:15</span></li>
+                                        <li><i class="fas fa-play-circle"></i> Box Model and Layout <span>52:30</span></li>
+                                        <li><i class="fas fa-play-circle"></i> Flexbox and Grid <span>65:45</span></li>
+                                        <li><i class="fas fa-play-circle"></i> Responsive Design <span>42:10</span></li>
+                                        <li><i class="fas fa-play-circle"></i> CSS Animations and Transitions <span>51:00</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <!-- More sections would be here -->
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="instructor">
+                        <div class="instructor-profile">
+                            <img src="images/instructor1.jpg" alt="Karan Kumar">
+                            <div class="instructor-info">
+                                <h3>Karan kumar</h3>
+                                <p class="title">Senior Web Developer & Instructor</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.7 Instructor Rating</span>
+                                </div>
+                                <div class="stats">
+                                    <span><i class="fas fa-users"></i> 42,500 Students</span>
+                                    <span><i class="fas fa-play-circle"></i> 15 Courses</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor-bio">
+                            <p>karan is a full-stack web developer with over 0 years of experience building web applications for startups and Fortune 500 companies. He specializes in JavaScript frameworks like React and Vue, and has taught over 40,000 students worldwide.</p>
+                            <p>When not coding or teaching, Karan enjoys hiking, photography, and playing guitar.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="reviews">
+                        <div class="review-summary">
+                            <div class="average-rating">
+                                <h3>4.5</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p>Course Rating</p>
+                            </div>
+                            <div class="rating-distribution">
+                                <div class="rating-bar">
+                                    <span>5 stars</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 65%;"></div>
+                                    </div>
+                                    <span>65%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>4 stars</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 20%;"></div>
+                                    </div>
+                                    <span>20%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>3 stars</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 8%;"></div>
+                                    </div>
+                                    <span>8%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>2 stars</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 4%;"></div>
+                                    </div>
+                                    <span>4%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span>1 star</span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 3%;"></div>
+                                    </div>
+                                    <span>3%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="reviews-list">
+                            <div class="review">
+                                <div class="reviewer">
+                                    <img src="images/profile.jpg" alt="Manvi">
+                                    <div class="reviewer-info">
+                                        <h4>Manvi</h4>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>This course is absolutely fantastic! John explains everything in a clear and concise way. The projects are challenging but achievable, and I've learned so much in just a few weeks. Highly recommend to anyone wanting to learn web development!</p>
+                                    <span class="date">Posted on July 15, 2023</span>
+                                </div>
+                            </div>
+                            
+                            <div class="review">
+                                <div class="reviewer">
+                                    <img src="images/user2.jpg" alt="Payal">
+                                    <div class="reviewer-info">
+                                        <h4>Payal</h4>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>Great course overall. The content is well-structured and covers all the important topics. My only suggestion would be to include more real-world examples in the later sections. But still, I've learned a ton and feel confident in my web dev skills now.</p>
+                                    <span class="date">Posted on June 28, 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="course-sidebar">
+                <div class="course-card">
+                    <img src="images/Bootcamp.png" alt="Web Development">
+                    <div class="price">$89.99 <span class="original">$129.99</span></div>
+                    <div class="discount-tag">30% OFF</div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn-primary btn-enroll">Enroll Now</button>
+                        <button class="btn-secondary btn-wishlist"><i class="far fa-heart"></i> Add to Wishlist</button>
+                    </div>
+                    
+                    <div class="course-features">
+                        <h4>This course includes:</h4>
+                        <ul>
+                            <li><i class="fas fa-video"></i> 45 hours on-demand video</li>
+                            <li><i class="fas fa-file-alt"></i> 25 articles</li>
+                            <li><i class="fas fa-download"></i> 15 downloadable resources</li>
+                            <li><i class="fas fa-infinity"></i> Full lifetime access</li>
+                            <li><i class="fas fa-mobile-alt"></i> Access on mobile and TV</li>
+                            <li><i class="fas fa-certificate"></i> Certificate of completion</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="share-course">
+                    <h4>Share this course:</h4>
+                    <div class="social-share">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-courses">
+        <div class="container">
+            <h2>Related Courses</h2>
+            <div class="courses-grid">
+                <!-- Similar to courses.html but with fewer items -->
+                <div class="course-card">
+                    <img src="images/react.jpg" alt="React JS">
+                    <div class="course-info">
+                        <h3>React JS - The Complete Guide</h3>
+                        <p class="instructor">By Karan Kumar</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.6 (980)</span>
+                        </div>
+                        <div class="price">$79.99 <span class="original">$119.99</span></div>
+                        <a href="course-detail.html" class="btn-secondary">View Course</a>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <img src="images/Node js.jpg" alt="Node JS">
+                    <div class="course-info">
+                        <h3>Node.js, Express & MongoDB</h3>
+                        <p class="instructor">By Radheshyam Gupta</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.3 (850)</span>
+                        </div>
+                        <div class="price">$69.99 <span class="original">$99.99</span></div>
+                        <a href="course-detail.html" class="btn-secondary">View Course</a>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <img src="images/javascript.png" alt="JavaScript">
+                    <div class="course-info">
+                        <h3>Modern JavaScript from Scratch</h3>
+                        <p class="instructor">By karan Prajapati</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0 (1,100)</span>
+                        </div>
+                        <div class="price">$59.99 <span class="original">$89.99</span></div>
+                        <a href="course-detail.html" class="btn-secondary">View Course</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
